@@ -11,7 +11,12 @@ let UploadCoverImageComponent = (props) => {
                     <div className="uploadCoverImageHeader">
                         <h4> Upload cover image </h4>
                     </div>
-                    <div className="uploadFileDiv">
+                    <input type="file" id="fileData" hidden/>
+                    <div className="uploadFileDiv" onClick={(event) => {
+                        // Getting the file form dom element 
+                        const fileData = document.getElementById("fileData"); 
+                        fileData.click();  
+                    }}>
 
                         <img src={uploadLogo} className="uploadLogo" /> 
 
