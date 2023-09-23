@@ -62,7 +62,7 @@ body {
   border: 1px solid #a7a4a4;
 }
 .innerFormSection {
-  height: 400px;
+  /* height: 400px; */
   padding: 76px;
   border: 2px solid #d5d5e2;
 }
@@ -96,4 +96,79 @@ body {
 }
 .personalInformationSection {
   margin-top: 30px; 
+}
+.personalInformationFormDiv {
+  height: fit-content;
+  background-color: #f5f5f5a6;
+  width: 306px;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  padding: 24px;
+  box-shadow: 3px 11px 34px -28px;
+  padding-bottom: 70px;
+}
+.firstname, .lastname, .email {
+  border: #fcfcfcbd;
+  border-bottom: 1px solid #ccc5c5;
+  height: 51px;
+  background: transparent;
+  font-weight: bold;
+  outline: none; 
+  width: 100%; 
+}
+
+.phone {
+  border: #fcfcfcbd;
+  height: 51px;
+  background: transparent;
+  font-weight: bold;
+  outline: none;
+  width: 154px;
+  font-size: 11px;
+}
+
+.phoneDiv {
+  border-bottom: 1px solid #ccc5c5; 
+  display: flex;
+  width: 100%; 
+}
+.internalPara {
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-top: 2px;
+  color: #726c6c;
+}
+.internalCheckboxDiv, 
+.hideCheckboxDiv {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+.hideLogo {
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+.genderDiv {
+  border: none; 
+}
+.addAQuestionDiv {
+  display: flex;
+  height: 50px;
+  background: transparent;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  width: 60%;
+}
+.addLogo {
+  height: 19px;
+  width: 19px;
+  margin-right: 16px;
+}
+.addAQuestionPara {
+  font-size: 12px;
+  font-weight: bold;
 }
