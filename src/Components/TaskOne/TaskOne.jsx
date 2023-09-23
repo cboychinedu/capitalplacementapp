@@ -6,6 +6,7 @@ import menuLogo from "../../Images/menuLogo.png";
 import homeLogo from "../../Images/homeLogo.png"; 
 import todoLogo from "../../Images/todoLogo.png"; 
 import { Link } from 'react-router-dom';
+import ProfileComponent from './ProfileComponent';
 
 // Creating the API/UI component 
 class ApiUserInterface extends Component {
@@ -70,6 +71,9 @@ class ApiUserInterface extends Component {
 
                             {/* Adding the personal information Component */}
                             <PersonalInformation /> 
+
+                            {/* Adding the profile component */}
+                            <ProfileComponent /> 
 
                         </section>
 

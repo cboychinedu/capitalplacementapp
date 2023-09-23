@@ -1,4 +1,4 @@
-// Importin the necessary modules 
+// Importing the necessary modules 
 import React, { Component, Fragment } from 'react'; 
 import hideLogo from "../../Images/hide.png"; 
 import addLogo from "../../Images/addLogo.png"; 

@@ -36,11 +36,13 @@ body {
   display: flex;
   margin-top: 136px;
   height: 84px;
+  font-size: 12px;
   border-top: 1px solid #d5cdcd;
   border-bottom: 1px solid #d5cdcd;
   align-items: center;
   justify-content: space-around;
-  box-shadow: -2px 3px 20px -12px
+  font-weight: bold;
+  box-shadow: -2px 1px 18px -10px;
 }
 .menuDiv {
   height: 83px;
@@ -106,7 +108,7 @@ body {
   align-items: center;
   padding: 24px;
   box-shadow: 3px 11px 34px -28px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 .firstname, .lastname, .email {
   border: #fcfcfcbd;
@@ -171,4 +173,7 @@ body {
 .addAQuestionPara {
   font-size: 12px;
   font-weight: bold;
+}
+.addAQuestionDiv .profileComponent {
+  margin-top: 18px;
 }
