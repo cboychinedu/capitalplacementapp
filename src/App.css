@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px; 
+  padding: 0px; 
+  font-family: 'Poppins';
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainSection {
+  display: flex; 
+  justify-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftBarDiv {
+  display: grid;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  height: 356px;
+  width: 6%;
+}
+.rightBarDiv {
+  border-left: 1px solid #cfcfcf;
+  height: 100vh;
+  width: 94%;
+}
+.menuLogoDiv {
+  margin-top: 50px;
+}
+.menuLogo, .homeLogo, .todoLogo {
+  height: 26px;
+  width: 26px;
+}
+.todoLogoDiv {
+  margin-top: -37px;
+}
+.mainNav {
   display: flex;
-  flex-direction: column;
+  margin-top: 136px;
+  height: 84px;
+  border-top: 1px solid #d5cdcd;
+  border-bottom: 1px solid #d5cdcd;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: -2px 3px 20px -12px
+}
+.menuDiv {
+  height: 83px;
+  display: flex;
+  width: 280px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.application {
   color: white;
+  font-weight: bold;
+  background-image: url("./Images/applicationFormBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-link {
-  color: #61dafb;
+.divider {
+  height: 46px;
+  border: 1px solid #a7a4a4;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.innerFormSection {
+  height: 400px;
+  padding: 76px;
+  border: 2px solid #d5d5e2;
+}
+.uploadCoverImageSection {
+  width: 470px;
+}
+.uploadCoverImageHeader {
+  background-color: #D0F7FA;
+  width: 331px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 14px;
+  padding-left: 23px;
+  justify-content: flex-start;
+  border-top-right-radius: 14px;
+}
+.uploadFileDiv {
+  height: 163px;
+  background-color: #f5f5f5a6;
+  width: 306px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 24px;
+  box-shadow: 3px 11px 34px -28px;
+}
+.uploadLogo {
+  height: 147px;
+  width: 305px;
+}
+.personalInformationSection {
+  margin-top: 30px; 
 }
