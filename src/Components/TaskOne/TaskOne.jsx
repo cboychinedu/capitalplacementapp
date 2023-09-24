@@ -2,6 +2,7 @@
 import React, { Component, Fragment } from 'react'; 
 import UploadCoverImageComponent from './UploadCoverImageComponent';
 import PersonalInformation from './PersonalInformationComponent';
+import AdditionalQuestionsComponent from './AdditionalQuestion';
 import menuLogo from "../../Images/menuLogo.png"; 
 import homeLogo from "../../Images/homeLogo.png"; 
 import todoLogo from "../../Images/todoLogo.png"; 
@@ -74,6 +75,9 @@ class ApiUserInterface extends Component {
 
                             {/* Adding the profile component */}
                             <ProfileComponent /> 
+
+                            {/* Adding the additional component  */}
+                            <AdditionalQuestionsComponent /> 
 
                         </section>
 
