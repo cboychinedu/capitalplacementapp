@@ -299,7 +299,6 @@ body {
   border: none;
   width: 100%;
   outline: none;
-  border-bottom: 1px solid #cecece;
   background: transparent;
 }
 .paragraphLabelDiv {
@@ -319,4 +318,59 @@ body {
   border: none;
   width: 60%;
   margin-top: 20px; 
+}
+.hiddenQuestionClass {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in;
+}
+.visibleQuestionClass {
+  max-height: 200px;
+  transition: max-height 0.2s ease-in
+}
+.labelType, 
+.labelQuestion {
+  font-size: 12px;
+  font-weight: bold;
+}
+.questionParagraph, 
+.questionInputForm {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  background: transparent;
+  font-size: 12px;
+  border: 2px solid #cfcece;
+  border-radius: 4px;
+  margin-top: 5px;
+  outline: none;
+}
+.questionInputForm {
+  width: 96%;
+}
+.questionParagraph option {
+  height: 37px;
+}
+.questionInputFormDiv {
+  margin-top: 10px;
+}
+.deleteLogo {
+  height: 26px;
+}
+.innerDeleteDivQuestion {
+  display: flex;
+  align-items: center;
+  width: 123px;
+  justify-content: space-between;
+}
+.questionSaveBtn {
+  height: 32px;
+  width: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #087B2F;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  
 }

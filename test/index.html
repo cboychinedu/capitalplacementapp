@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Effect</title>
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .sub-division {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 3s ease-in-out;
+        }
+        
+        .sub-division.open {
+            max-height: 200px; /* Set a suitable max-height for your content */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="toggleButton">Toggle Input Fields</button>
+        <div class="sub-division">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+    </div>
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const subDivision = document.querySelector('.sub-division');
+
+        toggleButton.addEventListener('click', () => {
+            subDivision.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
