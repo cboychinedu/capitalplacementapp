@@ -198,7 +198,7 @@ class PersonalInformation extends Component {
 
                             {/* Adding the delete question div  */}
                             <div className="deleteQuestionDiv">
-                                <div className="innerDeleteDivQuestion" onClick={() => {
+                                <div className="innerDeleteDiv" onClick={() => {
                                     // Changing the state 
                                     this.setState({
                                         question: "hiddenQuestionClass"
