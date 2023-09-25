@@ -3,7 +3,7 @@
 <img src="./src/Images/readmeDisplay.png">
 
 <p> 
-This README.md file provides step-by-step instructions on how to clone a ReactJS project from GitHub and set it up, including installing the necessary modules and libraries to create a basic React web application with two routes. <br>
+This README.md file provides step-by-step instructions on how to clone the <b> Capitalplacement Webapplication Quiz </b> project from GitHub and set it up, including installing the necessary modules and libraries to create a React based web application with two routes. <br>
 
 This assumes you have Git, Nodejs, and npm (Node Package Manager) already installed on your system.
 
@@ -12,11 +12,11 @@ This assumes you have Git, Nodejs, and npm (Node Package Manager) already instal
 <h2> Prerequisites </h2>
 <p> Before diving into the routing mechanism, ensure that you have the following prerequisites installed: 
 <ul>
-<li> LinuxGit | WindowsGit </li> 
-<li> Nodejs </li> 
-<li> npm (Node Package Manager) (included with Nodejs) </li>
-<li> React </li>
-<li> react-router-dom </li>
+<li> <a href="https://git-scm.com/download/linux"> LinuxGit </a> | <a href="https://git-scm.com/download/win"> WindowsGit </a> </li> 
+<li> <a href="https://nodejs.org/en/download"> Nodejs </a> </li> 
+<li> <a href="https://nodejs.org/en/download"> npm (Node Package Manager) (included with Nodejs) </a> </li>
+<li> <a href="https://www.npmjs.com/package/react"> React </a> </li>
+<li> <a href="https://www.npmjs.com/package/react-router-dom"> react-router-dom </a> </li>
 </ul>
 </p>
 
