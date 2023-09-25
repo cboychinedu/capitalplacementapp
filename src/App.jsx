@@ -1,6 +1,7 @@
 // Importing the necessary modules 
 import './App.css'; 
 import React, { Component, Fragment } from 'react'; 
+import UiDesignInterface from './Components/TaskTwo/TaskTwo';
 import ApiUserInterface from './Components/TaskOne/TaskOne.jsx'; 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ class App extends Component {
               {/* Setting the routes configurations */}
               <Routes> 
                 <Route exact path='/' element={<ApiUserInterface />} /> 
+                <Route path="/tasktwo" element={<UiDesignInterface /> } /> 
             </Routes>
         </BrowserRouter>
        </Fragment>
