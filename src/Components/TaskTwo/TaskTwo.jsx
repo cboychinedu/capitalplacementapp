@@ -1,5 +1,8 @@
 // Importing the necessary modules 
-import React, { Component, Fragment } from 'react'; 
+import React, { Component, Fragment } from 'react';
+import LeftBarComponent from './LeftBar'; 
+import MiddleBarComponent from './MiddleBar';
+import RightBarComponent from './RightBar';
 
 // Creating the UI design component 
 class UiDesignInterface extends Component {
@@ -12,22 +15,16 @@ class UiDesignInterface extends Component {
         return(
             <Fragment> 
                 {/* Adding the main section */}
-                <section className="mainSection">
-                    {/* Adding the left bar */}
-                    <div className="leftBarDiv">
-                        <p> Task Two </p>
+                <section className="taskTwoMainSection">
 
-                    </div>
+                    {/* Adding the left bar */}
+                    <LeftBarComponent /> 
 
                     {/* Adding the middle bar div */}
-                    <div className="middleBarDiv">
-
-                    </div>
+                    <MiddleBarComponent /> 
 
                     {/* Adding the right bar div  */}
-                    <div className="rightBarDiv">
-
-                    </div>
+                    <RightBarComponent /> 
 
                 </section>
 

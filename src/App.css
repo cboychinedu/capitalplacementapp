@@ -430,3 +430,59 @@ body {
   font-weight: bold;
   justify-content: left;
 }
+
+
+
+/* Task Two Styling */
+.taskTwoMainSection {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  background: #F9FAFF;
+}
+.taskTwoLeftBarDiv {
+  display: grid;
+  justify-content: center;
+  /* border-right: 1px solid #cacad3; */
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 6%;
+  background-color: white;
+}
+.taskTwoRightBarDiv {
+    border: 1px solid #cfcfcf;
+    height: 100vh;
+    width: 60%;
+}
+.taskTwoMiddleBarDiv {
+  border: 1px solid #cfcfcf;
+  height: 100vh;
+  width: 28%;
+}
+.circleLogoDiv, 
+.homeLogoDiv, 
+.usersLogoDiv, 
+.checkLogoDiv, 
+.shareLogoDiv, 
+.fileLogoDiv, 
+.contactLogoDiv, 
+.likesLogoDiv, 
+.backLogoDiv, 
+.settingsLogo {
+  margin-top: 3px;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+
+}
+.circleLogoDiv {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.lowerSection {
+  margin-top: 12px;
+  height: 113px;
+  padding-top: 260px;
+  margin-bottom: 40px;
+}
