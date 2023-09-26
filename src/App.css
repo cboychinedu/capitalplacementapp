@@ -446,7 +446,7 @@ body {
   justify-content: center;
   /* border-right: 1px solid #cacad3; */
   height: -moz-fit-content;
-  height: 178vh;;
+  height: 148vh;
   width: 6%;
   background-color: white;
 }
@@ -477,6 +477,9 @@ body {
   justify-content: center;
 
 }
+.settingsLogoDiv {
+  margin-bottom: 22px;
+}
 .circleLogoDiv {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -486,7 +489,7 @@ body {
   margin-top: 12px;
   height: 113px;
   display: grid;
-  padding-top: 340px;
+  padding-top: 233px;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -574,8 +577,10 @@ body {
 }
 .taskTwoTopDiv {
   height: 80px;
-  background-color: white;
   width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .taskTwoMiddleDiv {
   margin-top: 25px;
@@ -669,4 +674,84 @@ body {
   color: #037092;
   background-color: #F3FAFC; 
 
+}
+.selectComponent {
+  width: 250px;
+  height: 41px;
+  outline: none; 
+  border: none;
+}
+.noOutline {
+  outline: none;
+}
+.menuItem {
+  font-size: 12px;
+}
+.menuItemsInnerDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+}
+.taskTwoTopInnerDiv {
+  width: fit-content;
+  background-color: white;
+}
+.taskTwoTopLeftInnerDiv {
+  display: flex;
+  width: 60%;
+  height: 42px;
+  justify-content: right;
+  align-items: center;
+}
+.innerIconsDiv {
+  display: flex;
+  width: 53%;
+  /* border: 2px solid aliceblue; */
+  margin-top: 0px;
+  margin-right: -42px;
+}
+.iconsLogoDiv {
+  height: 50px;
+  width: 50px; 
+}
+.iconsDivider {
+  height: 19px;
+  border: 1px solid #dfdfdf45; 
+  margin-top: 5px;
+}
+.iconsLogo {
+  height: 79px;
+  width: 90px;
+  margin-top: -9px;
+}
+.moveToVideoPara {
+  font-size: 10px;
+}
+.moveToVideoInterviewBtn {
+  display: flex;
+  height: 41px;
+  padding-right: 12px;
+  padding-left: 12px;
+  align-items: center;
+  font-size: 11px;
+  outline: none;
+  margin-top: 1px;
+  background-color: #1D5ECD;
+  color: white;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 300px;
+}
+.moveToVideoMainDiv {
+  display: flex;
+  align-items: center;
+  width: 38%;
+}
+.videoDownArrowDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 1px;
+  height: fit-content;
 }
