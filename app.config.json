@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "Capital placement Application", 
+            "name": "capitalplacementapp", 
             "script": "npx",
             "interpreter": "none",
             "args": "serve -s build -p 3000",  
