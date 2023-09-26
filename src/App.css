@@ -450,12 +450,14 @@ body {
   background-color: white;
 }
 .taskTwoRightBarDiv {
+    padding-top: 30px; 
     border: 1px solid #cfcfcf;
     height: 100vh;
     width: 60%;
 }
 .taskTwoMiddleBarDiv {
-  border: 1px solid #cfcfcf;
+  padding-top: 30px;
+  /* border: 1px solid #cfcfcf; */
   height: 100vh;
   width: 28%;
 }
@@ -470,13 +472,13 @@ body {
 .backLogoDiv, 
 .settingsLogo {
   margin-top: 3px;
-  height: 50px;
+  height: 55px;
   display: grid;
   justify-content: center;
 
 }
 .circleLogoDiv {
-  margin-top: 25px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -485,4 +487,84 @@ body {
   height: 113px;
   padding-top: 260px;
   margin-bottom: 40px;
+}
+.londonIntershipHeader {
+  color: #1D4ED8; 
+}
+.londonInnerDiv {
+  height: 80px;
+  line-height: 29px;
+}
+.searchDiv {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 26px;
+  border-radius: 5px; 
+  padding: 13px;
+  
+}
+.search {
+  display: flex;
+    align-items: center;
+  height: 48px;
+
+}
+.searchInputForm {
+  border: none; 
+  outline: none;
+  padding-left: 10px; 
+  font-size: 12px;
+}
+.alertLogo {
+  margin-top: 2px;
+}
+.filtersDiv {
+  margin-top: 50px;
+  height: 58px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px; 
+}
+.searchLogo {
+  margin-top: 4px;
+}
+.filterPara {
+  font-size: 14px; 
+  font-weight: bold;
+}
+.selectedPara {
+  color: #3d3d3d; 
+}
+.filterOptionsDiv {
+  margin-top: 5px;
+  height: 55px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+.fileLogoFilter {
+  height: 28px;
+  width: 28px; 
+}
+.filterOptionsDiv .firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filterOptionsDiv .secondSection {
+  padding-top: 7px; 
+}
+.filterText {
+  padding-bottom: 5px;
 }
