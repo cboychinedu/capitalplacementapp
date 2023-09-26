@@ -1,5 +1,6 @@
 // Importing the necessary modules 
 import React, { Component, Fragment } from 'react'; 
+import { Link } from 'react-router-dom'; 
 import circleLogo from "../../Images/circle.png"; 
 import homeLogo from "../../Images/taskTwoHomeLogo.png"; 
 import usersLogo from "../../Images/users.png"; 
@@ -64,10 +65,10 @@ let LeftBarComponent = (props) => {
                     </div>
 
                     {/* Adding the back logo */}
-                    <div className="backLogoDiv">
+                    <Link className="backLogoDiv" to="/">
                         <img src={backLogo} alt="" className="backLogo" />
 
-                    </div>
+                    </Link>
 
                 </section>
 
@@ -79,7 +80,7 @@ let LeftBarComponent = (props) => {
                     </div>
 
                     {/* Adding the profile logo */}
-                    <div className="profileLogoDiv">
+                    <div className="leftBarprofileLogoDiv">
                         <img src={profileLogo} alt="" className="profileLogo" />
                     </div>
 

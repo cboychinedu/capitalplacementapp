@@ -439,26 +439,27 @@ body {
   justify-items: center;
   justify-content: space-between;
   background: #F9FAFF;
+  height: 183vh;
 }
 .taskTwoLeftBarDiv {
   display: grid;
   justify-content: center;
   /* border-right: 1px solid #cacad3; */
   height: -moz-fit-content;
-  height: fit-content;
+  height: 178vh;;
   width: 6%;
   background-color: white;
 }
 .taskTwoRightBarDiv {
     padding-top: 30px;
     height: 100vh;
-    width: 60%;
+    width: 65%;
 }
 .taskTwoMiddleBarDiv {
   padding-top: 30px;
   /* border: 1px solid #cfcfcf; */
   height: 100vh;
-  width: 28%;
+  width: 24%;
 }
 .circleLogoDiv, 
 .homeLogoDiv, 
@@ -484,8 +485,11 @@ body {
 .lowerSection {
   margin-top: 12px;
   height: 113px;
-  padding-top: 260px;
-  margin-bottom: 40px;
+  display: grid;
+  padding-top: 340px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 .londonIntershipHeader {
   color: #1D4ED8; 
@@ -516,6 +520,7 @@ body {
   outline: none;
   padding-left: 10px; 
   font-size: 12px;
+  width: 69%;
 }
 .alertLogo {
   margin-top: 2px;
@@ -574,7 +579,94 @@ body {
 }
 .taskTwoMiddleDiv {
   margin-top: 25px;
-  height: 100vh;
+  height: fit-content;
   background: white;
-  width: 95%;
+  width: 90%;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.middleDivHeaderDiv {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+
+}
+.innerMiddleDivRightSection {
+  display: flex;
+  width: 360px;
+  align-items: center;
+  font-size: 13px;
+  justify-content: space-evenly;
+}
+.innerMiddleDivLeftSection {
+  display: flex;
+  justify-content: space-between;
+  width: 174px;
+}
+.taskTwoDivider {
+  border: 1px solid #ededf3;
+  height: 17px;
+}
+.taskDisplayDiv {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  justify-content: space-around;
+}
+.disqualfiedDisplayDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+  font-size: 13px;
+}
+.qualifiedHeader, 
+.candidatesHeader {
+  color: #1D4ED8; 
+}
+.tasksValue, 
+.disqualifiedValue {
+  font-size: 12px;
+    background: #F7F8FD;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    padding-left: 6px;
+    margin-bottom: 2px;
+    padding-top: 2px;
+}
+.intershipUsersDiv {
+  border-top: 1px solid #f1f1f4;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profileLogoDiv {
+  margin-left: 30px; 
+}
+.usersInfomationDiv {
+  margin-left: 25px;
+  line-height: 22px;
+}
+.hashtagsPara, 
+.locationPara, 
+.educationPara {
+  text-decoration: none;
+  font-size: 12px;
+}
+.hashtagsPara {
+  color: #1d4ed8ad; 
+}
+.hashTagsGreenDiv {
+  display: flex;
+  font-size: 10px;
+  width: 180px;
+  justify-content: space-between; 
+}
+.greenTag {
+  color: #037092;
+  background-color: #F3FAFC; 
+
 }

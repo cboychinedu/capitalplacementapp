@@ -33,9 +33,9 @@ class ApiUserInterface extends Component {
                         </div>
 
                         {/* Adding the todo list */}
-                        <div className="todoLogoDiv">
+                        <Link className="todoLogoDiv" to="/tasktwo">
                             <img src={todoLogo} className="todoLogo" /> 
-                        </div>
+                        </Link>
 
                     </div>
 
