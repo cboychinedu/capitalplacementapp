@@ -15,7 +15,7 @@ let FilterComponents = (props) => {
                         <img src={fileLogo} className="fileLogoFilter" /> 
                     </div>
                     <div>
-                        <h3 className="filterText"> {props.text} </h3>
+                        <p className="filterText"> {props.text} </p>
                     </div>
                 </section>
                 <section className="secondSection">

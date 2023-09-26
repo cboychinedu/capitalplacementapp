@@ -27,7 +27,7 @@ class MiddleBarComponent extends Component {
                             <div>
                                 <img src={searchLogo} className='searchLogo'/> 
                             </div>
-                            <input type="search" placeholder='Search by name, edu, exp or #tag' className="searchInputForm" /> 
+                            <input type="text" placeholder='Search by name, edu, exp or #tag' className="searchInputForm" /> 
 
                         </div>
 

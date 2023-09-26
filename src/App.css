@@ -450,8 +450,7 @@ body {
   background-color: white;
 }
 .taskTwoRightBarDiv {
-    padding-top: 30px; 
-    border: 1px solid #cfcfcf;
+    padding-top: 30px;
     height: 100vh;
     width: 60%;
 }
@@ -563,8 +562,19 @@ body {
   justify-content: flex-start;
 }
 .filterOptionsDiv .secondSection {
-  padding-top: 7px; 
+  padding-top: 3px; 
 }
 .filterText {
   padding-bottom: 5px;
+}
+.taskTwoTopDiv {
+  height: 80px;
+  background-color: white;
+  width: 95%;
+}
+.taskTwoMiddleDiv {
+  margin-top: 25px;
+  height: 100vh;
+  background: white;
+  width: 95%;
 }

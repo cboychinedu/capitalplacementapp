@@ -1,5 +1,7 @@
 // Importing the necessary modules 
 import React, { Component, Fragment } from 'react'; 
+import TaskTwoMiddleDiv from './TaskTwoMiddleDiv';
+import TaskTwoTopDiv from './TaskTwoTopDiv'; 
 
 // Creating the Right Bar Component 
 class RightBarComponent extends Component {
@@ -12,6 +14,11 @@ class RightBarComponent extends Component {
         return(
             <Fragment>
                 <div className="taskTwoRightBarDiv">
+                    {/* Adding the top Div */}
+                    <TaskTwoTopDiv />
+
+                    {/* Adding the middle div  */}
+                    <TaskTwoMiddleDiv /> 
 
                 </div> 
             </Fragment>
